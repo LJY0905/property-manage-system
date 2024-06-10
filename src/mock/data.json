@@ -1,0 +1,333 @@
+{
+  "one": [
+    {
+      "name": "xixi",
+      "age": 18,
+      "id": "6221"
+    },
+    {
+      "id": "dbd3",
+      "email": "123@163.com",
+      "password": "123qwe"
+    }
+  ],
+  "register": [
+    {
+      "id": "29ca",
+      "email": "123@163.com",
+      "password": "46f94c8de14fb36680850768ff1b7f2a"
+    },
+    {
+      "id": "0e69",
+      "email": "1234@163.com",
+      "password": "46f94c8de14fb36680850768ff1b7f2a"
+    },
+    {
+      "id": "f9ab",
+      "email": "12345@123.com",
+      "password": "46f94c8de14fb36680850768ff1b7f2a"
+    }
+  ],
+  "user": [
+    {
+      "date": "2016-05-03",
+      "name": "Tom1",
+      "address": "No. 1223, Grove St, Los Angeles"
+    },
+    {
+      "date": "2016-05-01",
+      "name": "Lisa1",
+      "address": "No. 24, Grove St, Los Angeles"
+    },
+    {
+      "date": "2016-06-03",
+      "name": "Nancy1",
+      "address": "No. 344, Grove St, Los Angeles"
+    },
+    {
+      "date": "2016-02-03",
+      "name": "Mike1",
+      "address": "No. 15, Grove St, Los Angeles"
+    },
+    {
+      "date": "2016-05-30",
+      "name": "Mark1",
+      "address": "No. 182, Grove St, Los Angeles"
+    },
+    {
+      "date": "2016-05-03",
+      "name": "Tom2",
+      "address": "No. 423, Grove St, Los Angeles"
+    },
+    {
+      "date": "2016-05-01",
+      "name": "Lisa2",
+      "address": "No. 324, Grove St, Los Angeles"
+    },
+    {
+      "date": "2016-06-03",
+      "name": "Nancy2",
+      "address": "No. 364, Grove St, Los Angeles"
+    },
+    {
+      "date": "2016-02-03",
+      "name": "Mike2",
+      "address": "No. 124, Grove St, Los Angeles"
+    },
+    {
+      "date": "2016-05-30",
+      "name": "Mark2",
+      "address": "No. 139, Grove St, Los Angeles"
+    },
+    {
+      "date": "2016-05-03",
+      "name": "Tom3",
+      "address": "No. 163, Grove St, Los Angeles"
+    },
+    {
+      "date": "2016-05-01",
+      "name": "Lisa3",
+      "address": "No. 245, Grove St, Los Angeles"
+    },
+    {
+      "date": "2016-06-03",
+      "name": "Nancy3",
+      "address": "No. 34, Grove St, Los Angeles"
+    },
+    {
+      "date": "2016-02-03",
+      "name": "Mike3",
+      "address": "No. 18, Grove St, Los Angeles"
+    },
+    {
+      "date": "2016-05-30",
+      "name": "Mark3",
+      "address": "No. 14, Grove St, Los Angeles"
+    },
+    {
+      "date": "2016-05-03",
+      "name": "Tom4",
+      "address": "No. 17, Grove St, Los Angeles"
+    },
+    {
+      "date": "2016-05-01",
+      "name": "Lisa4",
+      "address": "No. 234, Grove St, Los Angeles"
+    },
+    {
+      "date": "2016-06-03",
+      "name": "Nancy4",
+      "address": "No. 334, Grove St, Los Angeles"
+    },
+    {
+      "date": "2016-02-03",
+      "name": "Mike4",
+      "address": "No. 16, Grove St, Los Angeles"
+    },
+    {
+      "date": "2016-05-30",
+      "name": "Mark4",
+      "address": "No. 1859, Grove St, Los Angeles"
+    },
+    {
+      "id": "c4be",
+      "name": "",
+      "address": ""
+    },
+    {
+      "id": "0848",
+      "name": "123",
+      "address": "123"
+    },
+    {
+      "id": "99d4",
+      "name": "123",
+      "address": "123"
+    },
+    {
+      "id": "40c9",
+      "name": "123",
+      "address": "123"
+    },
+    {
+      "id": "a259",
+      "name": "123",
+      "address": "123"
+    },
+    {
+      "id": "f69e",
+      "name": "123",
+      "address": "123"
+    },
+    {
+      "id": "5ed9",
+      "name": "111",
+      "address": "111"
+    },
+    {
+      "id": "26bd",
+      "name": "222",
+      "address": "222"
+    },
+    {
+      "id": "6a2c",
+      "name": "333",
+      "address": "333"
+    },
+    {
+      "id": "6fb3",
+      "name": "1133",
+      "address": "1133"
+    },
+    {
+      "id": "9c8a",
+      "name": "123123123",
+      "address": "123123123"
+    }
+  ],
+  "chartDataOne": [
+    {
+      "title": "一号楼",
+      "num": 1827
+    },
+    {
+      "title": "二号楼",
+      "num": 342
+    },
+    {
+      "title": "三号楼",
+      "num": 541
+    },
+    {
+      "title": "四号楼",
+      "num": 1347
+    },
+    {
+      "title": "五号楼",
+      "num": 2431
+    },
+    {
+      "title": "六号楼",
+      "num": 876
+    },
+    {
+      "title": "七号楼",
+      "num": 1578
+    }
+  ],
+  "chartDataTwo": {
+    "day": [
+      "星期1",
+      "星期2",
+      "星期3",
+      "星期4",
+      "星期5",
+      "星期6",
+      "星期7"
+    ],
+    "num": {
+      "外卖": [
+        140,
+        232,
+        101,
+        264,
+        90,
+        340,
+        250
+      ],
+      "快递": [
+        120,
+        282,
+        111,
+        234,
+        220,
+        340,
+        310
+      ],
+      "一般访客": [
+        320,
+        132,
+        201,
+        334,
+        190,
+        130,
+        220
+      ],
+      "授权访客": [
+        220,
+        402,
+        231,
+        134,
+        190,
+        230,
+        120
+      ]
+    }
+  },
+  "chartDataThree": [
+    {
+      "value": 567,
+      "name": "卫生"
+    },
+    {
+      "value": 123,
+      "name": "电梯"
+    },
+    {
+      "value": 324,
+      "name": "停车引导"
+    },
+    {
+      "value": 89,
+      "name": "水电"
+    },
+    {
+      "value": 453,
+      "name": "一般报修"
+    },
+    {
+      "value": 767,
+      "name": "门禁"
+    }
+  ],
+  "chartDataFour": {
+    "day": [
+      "星期1",
+      "星期2",
+      "星期3",
+      "星期4",
+      "星期5",
+      "星期6",
+      "星期7"
+    ],
+    "num": {
+      "一般用户": [
+        320,
+        502,
+        401,
+        334,
+        390,
+        430,
+        720
+      ],
+      "月租用户": [
+        234,
+        564,
+        443,
+        234,
+        754,
+        430,
+        321
+      ],
+      "特殊车辆": [
+        220,
+        321,
+        335,
+        534,
+        390,
+        330,
+        310
+      ]
+    }
+  }
+}
