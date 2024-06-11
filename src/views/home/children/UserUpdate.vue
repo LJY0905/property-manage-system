@@ -13,7 +13,8 @@
     import { ref, provide, onMounted } from 'vue'
     import ShowList from '../../../components/ShowList.vue'
     import link from '../../../api/link.js'
-    import useUpdateDialog from '../../../stores/updateDialog.js'
+    // import useUpdateDialog from '../../../stores/updateDialog.js'
+    import { useStore } from 'vuex'
     import UpdateDialog from '../../../components/UpdateDialog.vue'
 
     const tableData = ref([])
@@ -34,10 +35,11 @@
     }
     const method = ref('')
 
-    const updateDialogStore = useUpdateDialog()
+    // const updateDialogStore = useUpdateDialog()
+    const store = useStore()
     const handleEdit = () => {
         // console.log(index, row);
-        updateDialogStore.dialogFormVisible = true
+        store.commit("ChangeForm")
         method.value = 'PUT'
     }
     // const handleDelete = (index, row) => {
@@ -46,13 +48,14 @@
 
     const handleAdd = () => {
         // console.log(index, row);
-        updateDialogStore.dialogFormVisible = true
+        store.commit("ChangeForm")
         method.value = 'POST'
     }
 
     const handleUpdate = (message) => {
         link(`http://localhost:3000/user`, 'get').then((ok) => {
             // console.log(ok.data)
+            console.log(message)
             tableData.value = ok.data
             // console.log(tableData.value)
         })

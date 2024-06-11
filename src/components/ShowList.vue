@@ -6,7 +6,7 @@
         <el-table-column prop="address" label="Address" />
     </el-table>
     <el-pagination layout="total, sizes, prev, pager, next, jumper" :total="tableData.length"
-        @size-change="handleSizeChange" @current-change="handleCurrentChange" :current-page="currentPage.value" />
+        @size-change="handleSizeChange" @current-change="handleCurrentChange" :current-page="currentPage" />
 </template>
 
 <script setup>

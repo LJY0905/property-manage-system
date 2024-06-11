@@ -1,5 +1,5 @@
 <template>
-    <el-dialog v-model="updateDialogStore.dialogFormVisible" title="更新信息" width="500">
+    <el-dialog v-model="store.state.dialogFormVisible" title="更新信息" width="500">
         <el-form :model="form">
             <el-form-item label="Name" :label-width="formLabelWidth">
                 <el-input v-model="form.name" autocomplete="off" />
@@ -10,7 +10,8 @@
         </el-form>
         <template #footer>
             <div class="dialog-footer">
-                <el-button @click="updateDialogStore.dialogFormVisible = false">取消</el-button>
+                <!-- <el-button @click="updateDialogStore.dialogFormVisible = false">取消</el-button> -->
+                <el-button @click="handleCancle">取消</el-button>
                 <el-button type="primary" @click="handelConfirm">
                     确定
                 </el-button>
@@ -20,10 +21,12 @@
 </template>
 <script setup>
     import { inject, reactive, ref } from 'vue'
-    import useUpdateDialog from '../stores/updateDialog.js'
+    // import useUpdateDialog from '../stores/updateDialog.js'
+    import { useStore } from 'vuex';
     import link from '@/api/link';
 
-    const updateDialogStore = useUpdateDialog()
+    // const updateDialogStore = useUpdateDialog()
+    const store = useStore()
     const formLabelWidth = '140px'
     const form = reactive({
         name: '',
@@ -58,8 +61,12 @@
                 console.error('Error:', error.response ? error.response.data : error.message);
             });
         }
-        updateDialogStore.dialogFormVisible = false
+        // updateDialogStore.dialogFormVisible = false
+        store.commit("ChangeForm")
         emit('updateData', '111')
+    }
+    const handleCancle = () => {
+        store.commit("ChangeForm")
     }
 
 </script>

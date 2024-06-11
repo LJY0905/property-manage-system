@@ -32,102 +32,122 @@
     {
       "date": "2016-05-03",
       "name": "Tom1",
-      "address": "No. 1223, Grove St, Los Angeles"
+      "address": "No. 1223, Grove St, Los Angeles",
+      "id": "bcab"
     },
     {
       "date": "2016-05-01",
       "name": "Lisa1",
-      "address": "No. 24, Grove St, Los Angeles"
+      "address": "No. 24, Grove St, Los Angeles",
+      "id": "523d"
     },
     {
       "date": "2016-06-03",
       "name": "Nancy1",
-      "address": "No. 344, Grove St, Los Angeles"
+      "address": "No. 344, Grove St, Los Angeles",
+      "id": "12a5"
     },
     {
       "date": "2016-02-03",
       "name": "Mike1",
-      "address": "No. 15, Grove St, Los Angeles"
+      "address": "No. 15, Grove St, Los Angeles",
+      "id": "f822"
     },
     {
       "date": "2016-05-30",
       "name": "Mark1",
-      "address": "No. 182, Grove St, Los Angeles"
+      "address": "No. 182, Grove St, Los Angeles",
+      "id": "4e5b"
     },
     {
       "date": "2016-05-03",
       "name": "Tom2",
-      "address": "No. 423, Grove St, Los Angeles"
+      "address": "No. 423, Grove St, Los Angeles",
+      "id": "5aaa"
     },
     {
       "date": "2016-05-01",
       "name": "Lisa2",
-      "address": "No. 324, Grove St, Los Angeles"
+      "address": "No. 324, Grove St, Los Angeles",
+      "id": "44fc"
     },
     {
       "date": "2016-06-03",
       "name": "Nancy2",
-      "address": "No. 364, Grove St, Los Angeles"
+      "address": "No. 364, Grove St, Los Angeles",
+      "id": "8c74"
     },
     {
       "date": "2016-02-03",
       "name": "Mike2",
-      "address": "No. 124, Grove St, Los Angeles"
+      "address": "No. 124, Grove St, Los Angeles",
+      "id": "4d9c"
     },
     {
       "date": "2016-05-30",
       "name": "Mark2",
-      "address": "No. 139, Grove St, Los Angeles"
+      "address": "No. 139, Grove St, Los Angeles",
+      "id": "f0a3"
     },
     {
       "date": "2016-05-03",
       "name": "Tom3",
-      "address": "No. 163, Grove St, Los Angeles"
+      "address": "No. 163, Grove St, Los Angeles",
+      "id": "e1fe"
     },
     {
       "date": "2016-05-01",
       "name": "Lisa3",
-      "address": "No. 245, Grove St, Los Angeles"
+      "address": "No. 245, Grove St, Los Angeles",
+      "id": "6270"
     },
     {
       "date": "2016-06-03",
       "name": "Nancy3",
-      "address": "No. 34, Grove St, Los Angeles"
+      "address": "No. 34, Grove St, Los Angeles",
+      "id": "a8b6"
     },
     {
       "date": "2016-02-03",
       "name": "Mike3",
-      "address": "No. 18, Grove St, Los Angeles"
+      "address": "No. 18, Grove St, Los Angeles",
+      "id": "8272"
     },
     {
       "date": "2016-05-30",
       "name": "Mark3",
-      "address": "No. 14, Grove St, Los Angeles"
+      "address": "No. 14, Grove St, Los Angeles",
+      "id": "184a"
     },
     {
       "date": "2016-05-03",
       "name": "Tom4",
-      "address": "No. 17, Grove St, Los Angeles"
+      "address": "No. 17, Grove St, Los Angeles",
+      "id": "6a17"
     },
     {
       "date": "2016-05-01",
       "name": "Lisa4",
-      "address": "No. 234, Grove St, Los Angeles"
+      "address": "No. 234, Grove St, Los Angeles",
+      "id": "b35a"
     },
     {
       "date": "2016-06-03",
       "name": "Nancy4",
-      "address": "No. 334, Grove St, Los Angeles"
+      "address": "No. 334, Grove St, Los Angeles",
+      "id": "eeaa"
     },
     {
       "date": "2016-02-03",
       "name": "Mike4",
-      "address": "No. 16, Grove St, Los Angeles"
+      "address": "No. 16, Grove St, Los Angeles",
+      "id": "70e3"
     },
     {
       "date": "2016-05-30",
       "name": "Mark4",
-      "address": "No. 1859, Grove St, Los Angeles"
+      "address": "No. 1859, Grove St, Los Angeles",
+      "id": "0e75"
     },
     {
       "id": "c4be",
@@ -183,36 +203,53 @@
       "id": "9c8a",
       "name": "123123123",
       "address": "123123123"
+    },
+    {
+      "id": "abb1",
+      "name": "111222",
+      "address": "111222"
+    },
+    {
+      "id": "e0cb",
+      "name": "aaa",
+      "address": "aaa"
     }
   ],
   "chartDataOne": [
     {
       "title": "一号楼",
-      "num": 1827
+      "num": 1827,
+      "id": "7128"
     },
     {
       "title": "二号楼",
-      "num": 342
+      "num": 342,
+      "id": "296c"
     },
     {
       "title": "三号楼",
-      "num": 541
+      "num": 541,
+      "id": "a636"
     },
     {
       "title": "四号楼",
-      "num": 1347
+      "num": 1347,
+      "id": "a262"
     },
     {
       "title": "五号楼",
-      "num": 2431
+      "num": 2431,
+      "id": "356e"
     },
     {
       "title": "六号楼",
-      "num": 876
+      "num": 876,
+      "id": "6d4d"
     },
     {
       "title": "七号楼",
-      "num": 1578
+      "num": 1578,
+      "id": "8a21"
     }
   ],
   "chartDataTwo": {
@@ -267,27 +304,33 @@
   "chartDataThree": [
     {
       "value": 567,
-      "name": "卫生"
+      "name": "卫生",
+      "id": "e3d8"
     },
     {
       "value": 123,
-      "name": "电梯"
+      "name": "电梯",
+      "id": "01d7"
     },
     {
       "value": 324,
-      "name": "停车引导"
+      "name": "停车引导",
+      "id": "5fc6"
     },
     {
       "value": 89,
-      "name": "水电"
+      "name": "水电",
+      "id": "77bb"
     },
     {
       "value": 453,
-      "name": "一般报修"
+      "name": "一般报修",
+      "id": "3678"
     },
     {
       "value": 767,
-      "name": "门禁"
+      "name": "门禁",
+      "id": "5c53"
     }
   ],
   "chartDataFour": {

@@ -1,5 +1,5 @@
 <template>
-    <el-menu default-active="2" class="el-menu-vertical-demo" :collapse="!rightTopStore.isFold" @open="handleOpen"
+    <el-menu default-active="2" class="el-menu-vertical-demo" :collapse="!store.state.isFold" @open="handleOpen"
         @close="handleClose" router>
         <template v-for="item in router.options.routes[2].children" :key="item.path">
             <el-sub-menu :index="item.path" v-if="item.children">
@@ -28,9 +28,11 @@
     import { Menu as IconMenu } from '@element-plus/icons-vue'
     import { useRouter } from 'vue-router';
 
-    import useRightTop from "../stores/rightTop.js"
-    const rightTopStore = useRightTop()
+    // import useRightTop from "../stores/rightTop.js"
+    // const rightTopStore = useRightTop()
+    import { useStore } from 'vuex'
     const router = useRouter()
+    const store = useStore()
     // console.log(router.options.routes[2].children[0].path)
     console.log(router.options.routes[2].children[0].meta.icon)
     const handleOpen = (key, keyPath) => {
